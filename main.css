@@ -150,6 +150,9 @@ button.button-primary {
 	margin-bottom: 10px;
 }
 
+.visually-hidden {
+	display: none;
+}
 
 
 /* NAV STYLES */
@@ -288,6 +291,10 @@ button.button-primary {
 
 /* PROJECT PAGE */
 
+.next-link {
+	color: #2b2b2b;
+}
+
 .large-image {
 	background-size: cover;
 	background-position: center;
@@ -308,7 +315,7 @@ button.button-primary {
 .half-image {
 	background-size: cover;
 	background-position: center;
-	width: 45%;
+	width: 44%;
 	margin: 20px;
 	height: 300px;
 }
@@ -361,6 +368,10 @@ button.button-primary {
 		height: 80px;
 	}
 
+	.mobile-nav-logo, .mobile-nav-hamburger {
+		cursor: pointer;
+	}
+
 	.mobile-menu-open {
 		width: 100%;
 		background-color: white;
@@ -388,10 +399,11 @@ button.button-primary {
 
 	.mobile-menu-exit {
 		position: fixed;
-		top: 20px;
-		right: 20px;
+		top: 35px;
+		right: 25px;
 		color: #2b2b2b;
 		font-size: 24px;
+		cursor: pointer;
 	}
 
 
