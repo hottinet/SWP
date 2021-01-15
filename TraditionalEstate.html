@@ -8,9 +8,15 @@
 		/>
 		<meta name="description" content="!! CHANGE ME !!">
 	
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-		<link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+	<link
+	rel="preload"
+	href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+	as="style"
+	onload="this.onload=null;this.rel='stylesheet'"
+	>
+	<noscript>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+	</noscript>
 	
 		<title>Specialty Wood Products Inc.</title>
 		<link rel="stylesheet" href="main.css">
@@ -22,7 +28,7 @@
 		<a class="nav-link" href="index.html">HOME</a>
 		<a class="nav-link" href="./portfolio.html">PORTFOLIO</a>
 		<a href="index.html">
-			<img class="nav-logo" src="static/swp_logo-02.png" />
+			<img class="nav-logo" alt="SWP logo" src="static/swp_logo-02.png" />
 		</a>
 		<a class="nav-link" href="./About.html">ABOUT US</a>
 		<a class="nav-link" href="mailto: jsimpson@swp-inc.com" target=”_blank”>CONTACT US</a>
@@ -30,13 +36,13 @@
 
 	<div class="mobile-nav-container">
 		<a href="index.html">
-			<img class="mobile-nav-logo" src="static/swp_logo-02.png" />
+			<img class="mobile-nav-logo" alt="SWP logo" src="static/swp_logo-02.png" />
 		</a>
-		<img class="mobile-nav-hamburger" src="static/Icons/mobile-menu.svg" />
+		<img class="mobile-nav-hamburger" alt="menu" src="static/Icons/mobile-menu.svg" />
 	</div>
 
 	<div class="mobile-menu-open">
-		<img class="mobile-menu-exit" src="static/Icons/close_x.svg" />
+		<img class="mobile-menu-exit" alt="close menu" src="static/Icons/close_x.svg" />
 		<a class="mobile-link" href="">HOME</a>
 		<a class="mobile-link" href="./portfolio.html">PORTFOLIO</a>
 		<a class="mobile-link" href="./About.html">ABOUT US</a>

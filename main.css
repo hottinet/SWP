@@ -18,30 +18,29 @@ div {
 }
 
 
-
 /* TYPE STYLES */
+
+.h1, .h2, .h3, .h5 {
+	font-weight: 700;
+}
 
 .h1 {
 	font-size: 60px;
-	font-weight: 700;
 	margin-bottom: 40px;
 }
 
 .h2 {
 	font-size: 48px;
-	font-weight: 700;
 	margin-bottom: 40px;
 }
 
 .h3 {
 	font-size: 32px;
-	font-weight: 700;
 	margin-bottom: 20px;
 }
 
 .h5 {
 	font-size: 24px;
-	font-weight: 700;
 	letter-spacing: 1px;
 }
 
@@ -60,7 +59,6 @@ p {
 	margin-bottom: 20px;
 	font-weight: 400;
 }
-
 
 
 /* GLOBAL */

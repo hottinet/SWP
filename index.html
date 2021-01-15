@@ -8,9 +8,15 @@
 	/>
 	<meta name="description" content="!! CHANGE ME !!">
 
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+	<link
+	rel="preload"
+	href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+	as="style"
+	onload="this.onload=null;this.rel='stylesheet'"
+	>
+	<noscript>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+	</noscript>
 
 	<title>Specialty Wood Products Inc.</title>
 	<link rel="stylesheet" href="main.css">
@@ -21,7 +27,7 @@
 			<a class="nav-link active-nav-link" href="index.html">HOME</a>
 			<a class="nav-link" href="./portfolio.html">PORTFOLIO</a>
 			<a href="index.html">
-				<img class="nav-logo" src="static/swp_logo-02.png" />
+				<img class="nav-logo" alt="SWP logo" src="static/swp_logo-02.png" />
 			</a>
 			<a class="nav-link" href="./About.html">ABOUT US</a>
 			<a class="nav-link" href="mailto: jsimpson@swp-inc.com" target=”_blank”>CONTACT US</a>
@@ -29,13 +35,13 @@
 
 		<div class="mobile-nav-container">
 			<a href="index.html">
-				<img class="mobile-nav-logo" src="static/swp_logo-02.png" />
+				<img class="mobile-nav-logo" alt="SWP logo" src="static/swp_logo-02.png" />
 			</a>
-			<img class="mobile-nav-hamburger" src="static/Icons/mobile-menu.svg" />
+			<img class="mobile-nav-hamburger" alt="menu" src="static/Icons/mobile-menu.svg" />
 		</div>
 
 		<div class="mobile-menu-open">
-			<img class="mobile-menu-exit" src="static/Icons/close_x.svg" />
+			<img class="mobile-menu-exit" alt="close menu" src="static/Icons/close_x.svg" />
 			<a class="mobile-link active-mobile-link" href="">HOME</a>
 			<a class="mobile-link" href="./portfolio.html">PORTFOLIO</a>
 			<a class="mobile-link" href="./About.html">ABOUT US</a>
@@ -91,15 +97,15 @@
 				<h2 class="h2">Why work with us?</h2>
 				<div class="section-of-three">
 					<div class="icon-text-container">
-						<img loading="lazy" class="icon-image" src="static/Icons/swp-dark-04.png" />
+						<img loading="lazy" class="icon-image" alt="home with heart" src="static/Icons/swp-dark-04.png" />
 						<p>We’re focused on bringing your ideas to life</p>
 					</div>
 					<div class="icon-text-container">
-						<img loading="lazy" class="icon-image" src="static/Icons/swp-hat-05-05.png" />
+						<img loading="lazy" class="icon-image" alt="hat with SWP logo" src="static/Icons/swp-hat-05-05.png" />
 						<p>Family-owned and operated for 50 years</p>
 					</div>
 					<div class="icon-text-container">
-						<img loading="lazy" class="icon-image" src="static/Icons/swp-dark-06.png" />
+						<img loading="lazy" class="icon-image" alt="icon of cabinet" src="static/Icons/swp-dark-06.png" />
 						<p>Custom one-of-a-kind work built for you</p>
 					</div>
 				</div>
@@ -119,7 +125,7 @@
 
 		<div class="footer">
 			<div class="footer-left-container">
-				<img class="footer-logo" src="static/swp_logo-02.png" />
+				<img class="footer-logo" alt="SWP logo" src="static/swp_logo-02.png" />
 				<div class="footer-left">
 					<a class="footer-link" href="/portfolio.html">PORTFOLIO</a>
 					<a class="footer-link" href="./About.html">ABOUT US</a>
