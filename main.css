@@ -197,6 +197,7 @@ button.button-primary {
 .nav-link {
 	font-weight: 700;
 	color: white;
+	width: 120px;
 }
 
 .nav-link:hover {
